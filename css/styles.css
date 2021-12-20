@@ -1,0 +1,210 @@
+
+        /*-- Barra superio - TOP - */
+
+#top{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px
+
+}
+
+#toptexto{padding-left: 50px;
+
+}
+
+#topmenu{padding-right: 100px;
+
+}
+
+        /*Barra de menú principal*/
+
+#barra2 {
+    background: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img-logo {
+    width: 25px;
+    height: 25px;
+    }
+
+#Front{
+    color: #3C2313;
+}
+#catydog{
+    color:#FFFFFF;
+}
+
+#nav-principal{
+    display: flex;
+    padding-right: 0;
+    
+}
+#nav-principal li a {
+  
+    color:white ;
+  
+    
+}
+
+        /*Sección banner*/ 
+
+#banner {
+        display: flex;
+        background-color: turquoise;
+        background-image:url('../img/fondo1.png');
+        background-size:cover;
+        height: 62vh;
+
+}
+
+#comederos {
+    text-align: center;
+    position: absolute;
+    right: 100px;
+    top: 250px;
+}
+
+#comedero1 {
+    font-size: 30px;
+    background-color: white;
+    color: #3C2313;
+    padding: 10px;
+    
+}
+
+#comedero2 {
+    font-size: 16px;
+    color: #3C2313;
+    position:relative;
+    top:-10px; 
+    margin-bottom: 25px;
+}
+
+#comedero3 {
+    font-size: 16px;
+    color: white;
+    background-color: #F0A83E;
+    padding: 15px;
+    
+    
+    
+}
+
+#patita2 {
+    position: flex;
+    text-align: center;
+}
+
+
+        /*Sección productos Destsacados*/
+
+#productos-destacados h1 {
+    color: #3C2313;
+    size: 40px;
+    text-align: center;
+    line-height: 5px
+
+}
+
+#productos-destacados p{
+    color: #666666;
+    size: 15px;
+    text-align: center;
+    line-height: 5px
+}
+
+        /*Sección Contáctanos*/
+
+
+
+
+
+#suscribirme {
+    background-color: #F0A83E;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+
+}
+
+#suscribirme-texto {
+    color: white;
+    size: 20px;
+}
+
+
+        /*Contenido para el pie de página:*/
+
+#pie-datos{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.cajas-datos {
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    ;
+}
+.subcaja-datos {
+        display: flex;
+        padding: 20px;
+                
+}
+
+.cajas-datos p {
+    line-height: 1px;
+    margin-left: 25px;
+    
+}
+.texto-datos1{
+size: 20px;
+color: white;
+}
+
+.texto-datos2{
+    size: 10px;
+    color: #8A8787;
+}
+
+
+
+
+
+        /* logo del pie de página*/
+
+#pie-logo {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+#Front-pie{
+    color:white;
+}
+
+#catydog-pie{
+    color: #F0A83E;
+}
+
+
+
+        /*ultima barra*/
+
+#pie-bottom {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
